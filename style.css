@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --color-background: #222224;
+  --color-link: #5cd9ff;
+  --color-em: #5cd9ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  color: #dddddd;
+  background: var(--color-background);
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: black;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+p,
+a {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+em {
+  font-style: normal;
+  color: var(--color-em);
+}
+
+h1,
+h2 {
+  margin: 2rem 0;
+}
+
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: #dddddd;
+}
+
+header {
+  padding: 4rem 0 2rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+section,
+header {
+  margin: 0 auto;
+  width: 60%;
+}
+@media (max-width: 1400px) {
+  section,
+  header {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  section,
+  header {
+    width: 90%;
+  }
+}
